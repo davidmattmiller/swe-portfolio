@@ -1046,7 +1046,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon.bash:hover {
-  background-color: rgb(121, 229, 133, .7);
+  /* background-color: rgb(121, 229, 133, .7); */
+  background-color: rgb(112, 121, 124, .7);
   transform: scale(1.15);
 }
 
@@ -1138,6 +1139,35 @@ body .e-content {
     padding-top: 19px;
 }
 
-.glass:hover{
-  background-color: rgb(145, 117, 189, .7)!important;
+.glass-resume{
+  background-color: rgb(145, 117, 189, .6)!important;
+}
+
+.glass{
+  background-color: rgb(145, 117, 189, .95)!important;
+}
+
+@media screen and (max-width: 900px)
+  {
+   canvas.particles-js-canvas-el {
+   display: none;
+  }
+}
+
+.lottie{
+  width: 375px; height: auto;
+}
+
+@media screen and (max-width: 600px) { 
+  .lottie {
+    width: 75%;
+  }
+}
+
+body {
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
 }
