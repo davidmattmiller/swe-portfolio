@@ -964,11 +964,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #9175BD;
 }
-/*# sourceMappingURL=style.css.map */
 
 .icon {
     flex: 1 0 20%;
-    /* justify-content: space-between; */
     transition: all .2s ease-in-out;
     border-radius: 35px;
 }
@@ -976,14 +974,9 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 768px) {
   .icon {
     flex: 1 0 33%;
-    /* justify-content: space-between; */
     transition: all .2s ease-in-out;
 }
 }
-
-/* .icon:hover {
-  transform: scale(1.15);
-} */
 
 .icon.html:hover {
   background-color: rgb(255, 151, 91, .7);
@@ -1060,14 +1053,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(73, 71, 71, .7);
   transform: scale(1.15);
 }
-
+@media not all and (hover: none){
 .expimg {
   transition: all .85s ease-in-out;
 }
 
 .expimg:hover {
   transform: scale(1.25);
-}
+}}
 
 img {
     border: 0;
@@ -1147,13 +1140,6 @@ body .e-content {
   background-color: rgb(145, 117, 189, .95)!important;
 }
 
-@media screen and (max-width: 900px)
-  {
-   canvas.particles-js-canvas-el {
-   display: none;
-  }
-}
-
 .lottie{
   width: 375px; height: auto;
 }
@@ -1170,4 +1156,8 @@ body {
   -moz-animation: fadeIn 1.5s;
   -o-animation: fadeIn 1.5s;
   -ms-animation: fadeIn 1.5s;
+}
+
+.line {
+  display: inline-block;
 }
